@@ -15,6 +15,8 @@ How It Works
   - 2x ESP32-S3 development boards
   - USB webcam
   - 2 computers (one per ESP32)
+
+  - 
   Setup
   ESP32 Firmware
   Both boards use https://docs.espressif.com/projects/esp-idf/en/release-v4.4/esp32/get-started/index.html.
@@ -41,6 +43,7 @@ How It Works
   - c — Start/stop calibration (keep area empty during calibration)
   - q — Quit
   Options:
+
   ┌────────────────────┬──────────────────────────────────────────────────┐
   │        Flag        │                   Description                    │
   ├────────────────────┼──────────────────────────────────────────────────┤
@@ -114,6 +117,7 @@ How It Works
          → Linear(64→2)    → Softmax → [Empty, Present]
   Total: 147,234 parameters
   Pre-trained Model Results
+  
   ┌────────────────────────┬─────────────────────────────────┬───────────────┐
   │         Model          │              Task               │ Test Accuracy │
   ├────────────────────────┼─────────────────────────────────┼───────────────┤
@@ -123,6 +127,7 @@ How It Works
   ├────────────────────────┼─────────────────────────────────┼───────────────┤
   │ best_DA_NLOS.pt        │ Activity recognition (3-class)  │ 60.5%         │
   └────────────────────────┴─────────────────────────────────┴───────────────┘
+  
   Built With
   - ESP-IDF v4.4.7
   - PyTorch
