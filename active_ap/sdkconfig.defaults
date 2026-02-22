@@ -1,0 +1,20 @@
+# Pre-configured WiFi for hackathon (optional: override via menuconfig)
+CONFIG_ESP_WIFI_SSID="ESP32_CSI_AP"
+CONFIG_ESP_WIFI_PASSWORD="hackathon2026"
+
+# CRITICAL: Channel must match STA exactly
+CONFIG_WIFI_CHANNEL=6
+
+# Required: enable CSI in Wi-Fi component (fixes "CSI not enabled in menuconfig!" crash)
+CONFIG_ESP32_WIFI_CSI_ENABLED=y
+
+# ESP32-S3 beta3 (if your board reports "ESP32-S3(beta3)" when flashing)
+CONFIG_IDF_TARGET_ESP32S3_BETA_VERSION_3=y
+
+# AP-side settings for stable CSI connection (must match STA)
+CONFIG_ESP32_WIFI_AMPDU_TX_ENABLED=n
+CONFIG_ESP32_WIFI_AMPDU_RX_ENABLED=n
+
+# High baud rate required for 100 CSI packets/sec (~75KB/sec throughput)
+CONFIG_ESP_CONSOLE_UART_BAUDRATE=921600
+CONFIG_ESPTOOLPY_MONITOR_BAUD=921600

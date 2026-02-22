@@ -1,0 +1,10 @@
+# Build
+build/
+.cache/
+
+# Generated config (keep sdkconfig.defaults)
+sdkconfig
+sdkconfig.old
+
+# Data / logs
+data/

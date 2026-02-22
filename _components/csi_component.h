@@ -79,8 +79,6 @@ int8_t *my_ptr;
     ss << "]\n";
 
     printf(ss.str().c_str());
-    fflush(stdout);
-    vTaskDelay(0);
     xSemaphoreGive(mutex);
 }
 

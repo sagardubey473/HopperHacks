@@ -4,6 +4,7 @@
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 #include "freertos/event_groups.h"
+#include "esp_system.h"
 #include "esp_wifi.h"
 #include "esp_event.h"
 #include "esp_http_server.h"
@@ -65,15 +66,19 @@ static EventGroupHandle_t s_wifi_event_group;
 
 static const char *TAG = "Active CSI collection (AP)";
 
+static int connected_sta_count = 0;
+
 static void wifi_event_handler(void* arg, esp_event_base_t event_base, int32_t event_id, void* event_data) {
     if (event_id == WIFI_EVENT_AP_STACONNECTED) {
         wifi_event_ap_staconnected_t* event = (wifi_event_ap_staconnected_t*) event_data;
-        ESP_LOGI(TAG, "station " MACSTR " join, AID=%d",
-                 MAC2STR(event->mac), event->aid);
+        connected_sta_count++;
+        ESP_LOGI(TAG, "Station " MACSTR " joined, AID=%d (total connected: %d/%d)",
+                 MAC2STR(event->mac), event->aid, connected_sta_count, MAX_STA_CONN);
     } else if (event_id == WIFI_EVENT_AP_STADISCONNECTED) {
         wifi_event_ap_stadisconnected_t* event = (wifi_event_ap_stadisconnected_t*) event_data;
-        ESP_LOGI(TAG, "station " MACSTR " leave, AID=%d",
-                 MAC2STR(event->mac), event->aid);
+        if (connected_sta_count > 0) connected_sta_count--;
+        ESP_LOGW(TAG, "Station " MACSTR " left, AID=%d (total connected: %d/%d)",
+                 MAC2STR(event->mac), event->aid, connected_sta_count, MAX_STA_CONN);
     }
 }
 
@@ -113,9 +118,11 @@ void softap_init() {
     ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_AP, &wifi_config));
     ESP_ERROR_CHECK(esp_wifi_start());
 
-    esp_wifi_set_ps(WIFI_PS_NONE);
+    // Disable power saving — critical for stable CSI packet flow
+    ESP_ERROR_CHECK(esp_wifi_set_ps(WIFI_PS_NONE));
 
-    ESP_LOGI(TAG, "softap_init finished. SSID:%s password:%s", ESP_WIFI_SSID, ESP_WIFI_PASS);
+    ESP_LOGI(TAG, "AP init complete. SSID:%s channel:%d max_conn:%d",
+             ESP_WIFI_SSID, WIFI_CHANNEL, MAX_STA_CONN);
 }
 
 void config_print() {
