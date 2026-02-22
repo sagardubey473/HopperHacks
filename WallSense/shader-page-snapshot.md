@@ -1,0 +1,386 @@
+- generic [ref=e2]:
+  - main [ref=e4]:
+    - main [ref=e5]:
+      - generic [ref=e8]:
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - generic [ref=e18]:
+                - button "21st logo 21st" [ref=e20] [cursor=pointer]:
+                  - generic [ref=e21]:
+                    - generic [ref=e23]:
+                      - img "21st logo"
+                    - generic [ref=e25]: 21st
+                    - img
+                - button "Close sidebar" [ref=e27] [cursor=pointer]:
+                  - img
+              - button "Search... K" [ref=e29] [cursor=pointer]:
+                - img [ref=e30]
+                - generic [ref=e33]: Search...
+                - generic:
+                  - img
+                  - generic: K
+            - generic [ref=e36]:
+              - generic [ref=e37]:
+                - link "Home" [ref=e38] [cursor=pointer]:
+                  - /url: /community/components
+                  - img [ref=e39]
+                  - generic [ref=e42]: Home
+                - link "Feed" [ref=e43] [cursor=pointer]:
+                  - /url: /community/feed
+                  - img [ref=e44]
+                  - generic [ref=e46]: Feed
+                - link "Best of the Week" [ref=e47] [cursor=pointer]:
+                  - /url: /community/components/week/2026-W08
+                  - img [ref=e48]
+                  - generic [ref=e54]: Best of the Week
+                - link "Themes" [ref=e55] [cursor=pointer]:
+                  - /url: /community/themes
+                  - img [ref=e56]
+                  - generic [ref=e60]: Themes
+              - generic [ref=e61]:
+                - link "1Code" [ref=e62] [cursor=pointer]:
+                  - /url: /agents
+                  - generic [ref=e63]:
+                    - img [ref=e64]
+                    - img [ref=e66]
+                  - generic [ref=e68]: 1Code
+                  - img [ref=e69]
+                - link "Magic Chat" [ref=e73] [cursor=pointer]:
+                  - /url: /magic
+                  - img [ref=e74]
+                  - generic [ref=e78]: Magic Chat
+                  - img [ref=e79]
+              - generic [ref=e83]:
+                - heading "Marketing Blocks" [level=3] [ref=e85]
+                - generic [ref=e86]:
+                  - link "Announcements 10" [ref=e87] [cursor=pointer]:
+                    - /url: /s/announcement
+                    - generic [ref=e88]: Announcements
+                    - generic [ref=e89]: "10"
+                  - link "Backgrounds 33" [ref=e90] [cursor=pointer]:
+                    - /url: /s/background
+                    - generic [ref=e91]: Backgrounds
+                    - generic [ref=e92]: "33"
+                  - link "Borders 12" [ref=e93] [cursor=pointer]:
+                    - /url: /s/border
+                    - generic [ref=e94]: Borders
+                    - generic [ref=e95]: "12"
+                  - link "Calls to Action 34" [ref=e96] [cursor=pointer]:
+                    - /url: /s/call-to-action
+                    - generic [ref=e97]: Calls to Action
+                    - generic [ref=e98]: "34"
+                  - link "Clients 16" [ref=e99] [cursor=pointer]:
+                    - /url: /s/clients
+                    - generic [ref=e100]: Clients
+                    - generic [ref=e101]: "16"
+                  - link "Comparisons 6" [ref=e102] [cursor=pointer]:
+                    - /url: /s/comparison
+                    - generic [ref=e103]: Comparisons
+                    - generic [ref=e104]: "6"
+                  - link "Docks 6" [ref=e105] [cursor=pointer]:
+                    - /url: /s/dock
+                    - generic [ref=e106]: Docks
+                    - generic [ref=e107]: "6"
+                  - link "Features 36" [ref=e108] [cursor=pointer]:
+                    - /url: /s/features
+                    - generic [ref=e109]: Features
+                    - generic [ref=e110]: "36"
+                  - link "Footers 14" [ref=e111] [cursor=pointer]:
+                    - /url: /s/footer
+                    - generic [ref=e112]: Footers
+                    - generic [ref=e113]: "14"
+                  - link "Heroes 73" [ref=e114] [cursor=pointer]:
+                    - /url: /s/hero
+                    - generic [ref=e115]: Heroes
+                    - generic [ref=e116]: "73"
+                  - link "Hooks 31" [ref=e117] [cursor=pointer]:
+                    - /url: /s/hook
+                    - generic [ref=e118]: Hooks
+                    - generic [ref=e119]: "31"
+                  - link "Images 26" [ref=e120] [cursor=pointer]:
+                    - /url: /s/image
+                    - generic [ref=e121]: Images
+                    - generic [ref=e122]: "26"
+                  - link "Maps 2" [ref=e123] [cursor=pointer]:
+                    - /url: /s/map
+                    - generic [ref=e124]: Maps
+                    - generic [ref=e125]: "2"
+                  - link "Navigation Menus 11" [ref=e126] [cursor=pointer]:
+                    - /url: /s/navbar-navigation
+                    - generic [ref=e127]: Navigation Menus
+                    - generic [ref=e128]: "11"
+                  - link "Pricing Sections 17" [ref=e129] [cursor=pointer]:
+                    - /url: /s/pricing-section
+                    - generic [ref=e130]: Pricing Sections
+                    - generic [ref=e131]: "17"
+                  - link "Scroll Areas 24" [ref=e132] [cursor=pointer]:
+                    - /url: /s/scroll-area
+                    - generic [ref=e133]: Scroll Areas
+                    - generic [ref=e134]: "24"
+                  - link "Shaders 15" [ref=e135] [cursor=pointer]:
+                    - /url: /s/shader
+                    - generic [ref=e136]: Shaders
+                    - generic [ref=e137]: "15"
+                  - link "Testimonials 15" [ref=e138] [cursor=pointer]:
+                    - /url: /s/testimonials
+                    - generic [ref=e139]: Testimonials
+                    - generic [ref=e140]: "15"
+                  - link "Texts 58" [ref=e141] [cursor=pointer]:
+                    - /url: /s/text
+                    - generic [ref=e142]: Texts
+                    - generic [ref=e143]: "58"
+                  - link "Videos 9" [ref=e144] [cursor=pointer]:
+                    - /url: /s/video
+                    - generic [ref=e145]: Videos
+                    - generic [ref=e146]: "9"
+              - generic [ref=e147]:
+                - heading "UI Components" [level=3] [ref=e149]
+                - generic [ref=e150]:
+                  - link "Accordions 40" [ref=e151] [cursor=pointer]:
+                    - /url: /s/accordion
+                    - generic [ref=e152]: Accordions
+                    - generic [ref=e153]: "40"
+                  - link "AI Chats 30" [ref=e154] [cursor=pointer]:
+                    - /url: /s/ai-chat
+                    - generic [ref=e155]: AI Chats
+                    - generic [ref=e156]: "30"
+                  - link "Alerts 23" [ref=e157] [cursor=pointer]:
+                    - /url: /s/alert
+                    - generic [ref=e158]: Alerts
+                    - generic [ref=e159]: "23"
+                  - link "Avatars 17" [ref=e160] [cursor=pointer]:
+                    - /url: /s/avatar
+                    - generic [ref=e161]: Avatars
+                    - generic [ref=e162]: "17"
+                  - link "Badges 25" [ref=e163] [cursor=pointer]:
+                    - /url: /s/badge
+                    - generic [ref=e164]: Badges
+                    - generic [ref=e165]: "25"
+                  - link "Buttons 130" [ref=e166] [cursor=pointer]:
+                    - /url: /s/button
+                    - generic [ref=e167]: Buttons
+                    - generic [ref=e168]: "130"
+                  - link "Calendars 34" [ref=e169] [cursor=pointer]:
+                    - /url: /s/calendar
+                    - generic [ref=e170]: Calendars
+                    - generic [ref=e171]: "34"
+                  - link "Cards 79" [ref=e172] [cursor=pointer]:
+                    - /url: /s/card
+                    - generic [ref=e173]: Cards
+                    - generic [ref=e174]: "79"
+                  - link "Carousels 16" [ref=e175] [cursor=pointer]:
+                    - /url: /s/carousel
+                    - generic [ref=e176]: Carousels
+                    - generic [ref=e177]: "16"
+                  - link "Checkboxes 19" [ref=e178] [cursor=pointer]:
+                    - /url: /s/checkbox
+                    - generic [ref=e179]: Checkboxes
+                    - generic [ref=e180]: "19"
+                  - link "Date Pickers 12" [ref=e181] [cursor=pointer]:
+                    - /url: /s/date-picker
+                    - generic [ref=e182]: Date Pickers
+                    - generic [ref=e183]: "12"
+                  - link "Dialogs / Modals 37" [ref=e184] [cursor=pointer]:
+                    - /url: /s/modal-dialog
+                    - generic [ref=e185]: Dialogs / Modals
+                    - generic [ref=e186]: "37"
+                  - link "Dropdowns 25" [ref=e187] [cursor=pointer]:
+                    - /url: /s/dropdown
+                    - generic [ref=e188]: Dropdowns
+                    - generic [ref=e189]: "25"
+                  - link "Empty States 1" [ref=e190] [cursor=pointer]:
+                    - /url: /s/empty-state
+                    - generic [ref=e191]: Empty States
+                    - generic [ref=e192]: "1"
+                  - link "File Trees 2" [ref=e193] [cursor=pointer]:
+                    - /url: /s/file-tree
+                    - generic [ref=e194]: File Trees
+                    - generic [ref=e195]: "2"
+                  - link "File Uploads 7" [ref=e196] [cursor=pointer]:
+                    - /url: /s/upload-download
+                    - generic [ref=e197]: File Uploads
+                    - generic [ref=e198]: "7"
+                  - link "Forms 23" [ref=e199] [cursor=pointer]:
+                    - /url: /s/form
+                    - generic [ref=e200]: Forms
+                    - generic [ref=e201]: "23"
+                  - link "Icons 10" [ref=e202] [cursor=pointer]:
+                    - /url: /s/icons
+                    - generic [ref=e203]: Icons
+                    - generic [ref=e204]: "10"
+                  - link "Inputs 102" [ref=e205] [cursor=pointer]:
+                    - /url: /s/input
+                    - generic [ref=e206]: Inputs
+                    - generic [ref=e207]: "102"
+                  - link "Links 13" [ref=e208] [cursor=pointer]:
+                    - /url: /s/link
+                    - generic [ref=e209]: Links
+                    - generic [ref=e210]: "13"
+                  - link "Menus 18" [ref=e211] [cursor=pointer]:
+                    - /url: /s/menu
+                    - generic [ref=e212]: Menus
+                    - generic [ref=e213]: "18"
+                  - link "Notifications 5" [ref=e214] [cursor=pointer]:
+                    - /url: /s/notification
+                    - generic [ref=e215]: Notifications
+                    - generic [ref=e216]: "5"
+                  - link "Numbers 18" [ref=e217] [cursor=pointer]:
+                    - /url: /s/number
+                    - generic [ref=e218]: Numbers
+                    - generic [ref=e219]: "18"
+                  - link "Paginations 20" [ref=e220] [cursor=pointer]:
+                    - /url: /s/pagination
+                    - generic [ref=e221]: Paginations
+                    - generic [ref=e222]: "20"
+                  - link "Popovers 23" [ref=e223] [cursor=pointer]:
+                    - /url: /s/popover
+                    - generic [ref=e224]: Popovers
+                    - generic [ref=e225]: "23"
+                  - link "Radio Groups 22" [ref=e226] [cursor=pointer]:
+                    - /url: /s/radio-group
+                    - generic [ref=e227]: Radio Groups
+                    - generic [ref=e228]: "22"
+                  - link "Selects 62" [ref=e229] [cursor=pointer]:
+                    - /url: /s/select
+                    - generic [ref=e230]: Selects
+                    - generic [ref=e231]: "62"
+                  - link "Sidebars 10" [ref=e232] [cursor=pointer]:
+                    - /url: /s/sidebar
+                    - generic [ref=e233]: Sidebars
+                    - generic [ref=e234]: "10"
+                  - link "Sign Ins 4" [ref=e235] [cursor=pointer]:
+                    - /url: /s/sign-in
+                    - generic [ref=e236]: Sign Ins
+                    - generic [ref=e237]: "4"
+                  - link "Sign ups 4" [ref=e238] [cursor=pointer]:
+                    - /url: /s/registration-signup
+                    - generic [ref=e239]: Sign ups
+                    - generic [ref=e240]: "4"
+                  - link "Sliders 45" [ref=e241] [cursor=pointer]:
+                    - /url: /s/slider
+                    - generic [ref=e242]: Sliders
+                    - generic [ref=e243]: "45"
+                  - link "Spinner Loaders 21" [ref=e244] [cursor=pointer]:
+                    - /url: /s/spinner-loader
+                    - generic [ref=e245]: Spinner Loaders
+                    - generic [ref=e246]: "21"
+                  - link "Tables 30" [ref=e247] [cursor=pointer]:
+                    - /url: /s/table
+                    - generic [ref=e248]: Tables
+                    - generic [ref=e249]: "30"
+                  - link "Tabs 38" [ref=e250] [cursor=pointer]:
+                    - /url: /s/tabs
+                    - generic [ref=e251]: Tabs
+                    - generic [ref=e252]: "38"
+                  - link "Tags 6" [ref=e253] [cursor=pointer]:
+                    - /url: /s/chip-tag
+                    - generic [ref=e254]: Tags
+                    - generic [ref=e255]: "6"
+                  - link "Text Areas 22" [ref=e256] [cursor=pointer]:
+                    - /url: /s/textarea
+                    - generic [ref=e257]: Text Areas
+                    - generic [ref=e258]: "22"
+                  - link "Toasts 2" [ref=e259] [cursor=pointer]:
+                    - /url: /s/toast
+                    - generic [ref=e260]: Toasts
+                    - generic [ref=e261]: "2"
+                  - link "Toggles 12" [ref=e262] [cursor=pointer]:
+                    - /url: /s/toggle
+                    - generic [ref=e263]: Toggles
+                    - generic [ref=e264]: "12"
+                  - link "Tooltips 28" [ref=e265] [cursor=pointer]:
+                    - /url: /s/tooltip
+                    - generic [ref=e266]: Tooltips
+                    - generic [ref=e267]: "28"
+            - generic [ref=e270]:
+              - generic [ref=e275]:
+                - generic [ref=e276]:
+                  - generic [ref=e277]: We're in YC
+                  - paragraph [ref=e278]: 21st is backed by Y Combinator. Excited for what's ahead!
+                - link [ref=e279] [cursor=pointer]:
+                  - /url: https://www.ycombinator.com/companies/1code-21stdev
+                - generic [ref=e280]:
+                  - link [ref=e281] [cursor=pointer]:
+                    - /url: https://www.ycombinator.com/companies/1code-21stdev
+                    - text: Read more
+                  - button [ref=e282] [cursor=pointer]: Dismiss
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - generic [ref=e287]: Introducing 1Code
+                  - paragraph [ref=e288]: The best UI for Claude Code and Codex.
+                - link [ref=e289] [cursor=pointer]:
+                  - /url: https://21st.dev/agents
+                - generic [ref=e290]:
+                  - link "Read more" [ref=e291] [cursor=pointer]:
+                    - /url: https://21st.dev/agents
+                  - button "Dismiss" [ref=e292] [cursor=pointer]
+            - generic [ref=e294]:
+              - generic [ref=e295]:
+                - button "Toggle theme (long press for system)" [ref=e296] [cursor=pointer]:
+                  - generic [ref=e297]:
+                    - img
+                - button "Settings" [ref=e298] [cursor=pointer]:
+                  - img
+              - button "Log in" [ref=e299] [cursor=pointer]:
+                - generic [ref=e300]: Log in
+          - button "Toggle Sidebar" [ref=e301] [cursor=pointer]
+        - generic [ref=e304]:
+          - generic [ref=e307]:
+            - generic [ref=e310]:
+              - button "Components" [ref=e311] [cursor=pointer]
+              - img [ref=e312]
+              - generic [ref=e314]: call to-action
+            - generic [ref=e315]:
+              - generic:
+                - button "Search":
+                  - img
+                  - generic: Search
+                  - generic:
+                    - img
+                    - generic: K
+              - combobox [ref=e316] [cursor=pointer]:
+                - img [ref=e317]
+              - combobox [ref=e319]
+          - generic [ref=e322]:
+            - listitem [ref=e323]
+            - listitem [ref=e331]
+            - listitem [ref=e339]
+            - listitem [ref=e347]
+            - listitem [ref=e355]
+            - listitem [ref=e363]
+            - listitem [ref=e371]
+            - listitem [ref=e379]
+            - listitem [ref=e387]
+            - listitem [ref=e395]
+            - listitem [ref=e403]
+            - listitem [ref=e411]
+            - listitem [ref=e419]
+            - listitem [ref=e427]
+            - listitem [ref=e435]
+            - listitem [ref=e443]
+            - listitem [ref=e451]
+            - listitem [ref=e459]
+            - listitem [ref=e467]
+            - listitem [ref=e475]
+            - listitem [ref=e483]
+            - listitem [ref=e491]
+            - listitem [ref=e499]
+            - listitem [ref=e507]
+            - listitem [ref=e515]
+            - listitem [ref=e523]
+            - listitem [ref=e531]
+            - listitem [ref=e539]
+            - listitem [ref=e547]
+            - listitem [ref=e555]
+            - listitem [ref=e563]
+            - listitem [ref=e571]
+            - listitem [ref=e579]
+            - listitem [ref=e587]
+            - listitem [ref=e595]
+            - listitem [ref=e603]
+            - listitem [ref=e611]
+            - listitem [ref=e619]
+            - listitem [ref=e627]
+            - listitem [ref=e635]
+  - region "Notifications alt+T"
